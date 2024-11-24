@@ -1,0 +1,13 @@
+black
+flake8
+mypy
+pandas
+scikit-learn
+prophet
+statsmodels
+matplotlib
+plotly
+folium
+requests
+pre-commit
+OSMPythonTools

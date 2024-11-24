@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 88  # Set maximum line length (adjust as needed)
+ignore = E501, W503  # Ignore specific rules (e.g., line length, line break before binary operator)
+select = E,W,F,C,N  # Enable specific rule categories
+exclude = .git,__pycache__,build,dist  # Exclude specific directories

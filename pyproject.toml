@@ -1,0 +1,17 @@
+[tool.black]
+line-length = 88  # Maximum line length (default 88)
+target-version = ['py38']  # Python version compatibility (adjust to your version)
+skip-string-normalization = false  # Whether to skip string normalization (e.g., single/double quotes)
+include = '\.pyi?$'  # File patterns to include (e.g., Python files and `.pyi` type hint files)
+exclude = '''
+/(
+  \.git
+  | \.tox
+  | \.nox
+  | \.coverage
+  | \.hypothesis
+  | \.pytest
+  | build
+  | dist
+)/
+'''  # Exclude patterns for directories like `.git`, `.tox`, etc.
